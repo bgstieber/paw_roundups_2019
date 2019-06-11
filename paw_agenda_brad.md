@@ -12,3 +12,68 @@ __Helpful Links__
      + [Deep Learning in Practice: A Hands-On Introduction](https://www.predictiveanalyticsworld.com/lasvegas/workshops/deep-learning-in-practice-a-hands-on-introduction/)
 
 ## Day 2: 2019-06-18
+
+ - 8:45 - 10:00
+     + Sessions:
+     + Room:
+ - 10:00 - 10:30
+     + Sessions:
+     + Room:
+ - 10:30 - 11:15
+     + Sessions:
+     + Room: 
+ - 11:20 - 12:05
+     + Sessions:
+     + Room: 
+ - 12:05 - 1:30
+     + Sessions:
+     + Room: 
+ - 1:30 - 2:15
+     + Sessions:
+     + Room:
+ - 2:20 - 2:40
+     + Sessions:
+     + Room:
+ - 2:45 - 3:30
+     + Sessions:
+     + Room:
+ - 3:55 - 4:40
+     + Sessions:
+     + Room:
+ - 4:45 - 5:30
+     + Sessions:
+     + Room:
+
+
+## Day 3: 2019-06-19
+
+ - 8:45 - 10:00
+     + Sessions:
+     + Room:
+ - 10:00 - 10:30
+     + Sessions:
+     + Room:
+ - 10:30 - 11:15
+     + Sessions:
+     + Room: 
+ - 11:20 - 12:05
+     + Sessions:
+     + Room: 
+ - 12:05 - 1:30
+     + Sessions:
+     + Room: 
+ - 1:30 - 2:15
+     + Sessions:
+     + Room:
+ - 2:20 - 2:40
+     + Sessions:
+     + Room:
+ - 2:45 - 3:30
+     + Sessions:
+     + Room:
+ - 3:55 - 4:40
+     + Sessions:
+     + Room:
+ - 4:45 - 5:30
+     + Sessions:
+     + Room:
