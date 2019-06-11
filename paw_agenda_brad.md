@@ -17,9 +17,9 @@ __Helpful Links__
      + Sessions: [Opening Remarks - Siegel](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session62921), [Silicon Valley, Deep Learning - Shokoohi-Yekta](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session62931), [Finding At-Risk Children - Daley](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session62941), [How Automation will Change Data Science - Fujimaki (vendor presentation)](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session62951)
      + Room: Octavius Ballroom
  - 10:00 - 10:30: Coffee Break :coffee:
- - 10:30 - 11:15 __TBD__
-     + Sessions:
-     + Room: 
+ - 10:30 - 11:15
+     + Sessions: [Improving Customer Lifetime Value Predictions - Abbott](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session62981)
+     + Room: Octavius 17-19
  - 11:20 - 12:05
      + Sessions: [Challenges in Recommender Systems at Twitter Scale - Bansal](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63031)
      + Room: Octavius 21 & 22
@@ -48,14 +48,14 @@ __Helpful Links__
 ## Day 3: 2019-06-19
 
  - 8:45 - 10:00
-     + Sessions:
-     + Room:
+     + Sessions: Keynotes
+     + Room: Octavius Ballroom
  - 10:05 - 10:50
      + Sessions:
      + Room:
  - 10:50 - 11:20: Coffee Break :coffee:
  - 11:20 - 12:05
-     + Sessions:
+     + Sessions: [Effective Data Preparation - Nisbet](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63321)
      + Room: 
  - 12:05 - 1:10: Lunch :fork_and_knife:
  - 1:10 - 2:00
