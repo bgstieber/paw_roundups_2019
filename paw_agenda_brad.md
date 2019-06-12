@@ -2,7 +2,7 @@
 
 __Helpful Links__
 
- - [Full Conference Agenda](https://www.predictiveanalyticsworld.com/business/2019/agenda/)
+ - [Full Conference Agenda](https://www.predictiveanalyticsworld.com/lasvegas/agenda/)
  - [Caesars Palace Map](https://www.caesars.com/caesars-palace/caesars-palace-map)
      + [pdf version](https://www.caesars.com/content/dam/clv/Property/Maps/clv-property-map-042018.pdf)
 
@@ -10,6 +10,8 @@ __Helpful Links__
 
  - 8:30am - 4:30pm
      + [Deep Learning in Practice: A Hands-On Introduction](https://www.predictiveanalyticsworld.com/lasvegas/workshops/deep-learning-in-practice-a-hands-on-introduction/)
+     + Instructor: [James McCaffrey](https://jamesmccaffrey.wordpress.com/)
+     + Room: Octavius 17-19
 
 ## Day 2: 2019-06-18
 
@@ -23,7 +25,7 @@ __Helpful Links__
  - 11:20 - 12:05
      + Sessions: [Challenges in Recommender Systems at Twitter Scale - Bansal](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63031)
      + Room: Octavius 21 & 22
-     + __Possible alternative__: [Overcome barriers to predictive deployments - Kushner](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63011), [Engage everyone who will touch the analytic model in the development process](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63012)
+     + __Possible alternative__: [Overcome barriers to predictive deployments - Kushner](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63011), [Engage everyone who will touch the analytic model in the development process - Warden](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63012)
          * Room: Octavius Ballroom
  - 12:05 - 1:30: LUNCH :fork_and_knife:
  - 1:30 - 2:15
