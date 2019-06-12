@@ -50,9 +50,9 @@ __Helpful Links__
 ## Day 3: 2019-06-19
 
  - 8:45 - 10:00
-     + Sessions: Keynotes
+     + Sessions: [Comedy - Bauman](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63241), [Disney - Shafer](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63251), [Cognitive Decision Making - Kallakuri (vendor presentation)](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63261)
      + Room: Octavius Ballroom
- - 10:05 - 10:50
+ - 10:05 - 10:50 __Flex Session__: determine appropriate session based on conference experience so far
      + Sessions:
      + Room:
  - 10:50 - 11:20: Coffee Break :coffee:
