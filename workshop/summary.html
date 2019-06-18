@@ -1056,71 +1056,119 @@ body .markdown-body
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>summary</title></head><body><article class="markdown-body"><h1 id="deep-learning-tutorial">Deep Learning Tutorial<a class="headerlink" href="#deep-learning-tutorial" title="Permanent link"></a></h1>
+<p><strong>Note:</strong> in general, this tutorial was very good, but did bounce around quite a bit between stories from JM&rsquo;s experience, fitting models, looking at code, and investigating what the code was returning. The notes below somewhat match this bounciness.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link"></a></h2>
-<p>AI is ML applied to six different settings
-    five senses (sight, sound, taste, touch, smell)
-    understanding</p>
-<p>package manager is important
-    anaconda has one, called conda
-        JM strongly recommends not using it
-    use pip instead </p>
-<p>hyperparameter training is mostly done by trial-and-error
-    model.add(K.layers.Dense(units=5, input_dim=4, activation=&rsquo;tanh&rsquo;)) # units is hyper
-    model.add(K.layers.Dense(units=3, activation=&rsquo;softmax&rsquo;)) # units refers to num of prediction cols</p>
+<p>AI is ML applied to six different settings</p>
+<ul>
+<li>five senses (sight, sound, taste, touch, smell)</li>
+<li>understanding</li>
+</ul>
+<p>package manager is important</p>
+<ul>
+<li>anaconda has one, called conda<ul>
+<li>JM strongly recommends not using it</li>
+</ul>
+</li>
+<li>use pip instead </li>
+</ul>
+<p>hyperparameter training is mostly done by trial-and-error</p>
+<p><code>model.add(K.layers.Dense(units=5, input_dim=4, activation='tanh'))</code></p>
+<p>units is hyperparameter controlling number of hidden nodes</p>
+<p><code>model.add(K.layers.Dense(units=3, activation='softmax'))</code> </p>
+<p>units refers to num of prediction cols (predictions to return)</p>
 <p>ONNX - standard way to save NN models</p>
 <p>&ldquo;enough data&rdquo;: 100s of thousands, or millions, or even billions</p>
-<p>standardizing: dividing by constant (naive scaling), z-scoring, min-max (x - min(x) / max(x) - min(x))
-    which one should you use when?
-        z-score: investigate values with abs(x) &gt; 6
-        naive scaling (order magnitude): he likes this one the most</p>
-<p>binary predictor: map to -1/1 not 0/1 (differs from standard statistical approach)
-    Lots of ways to do predictor encoding
-        1 of (N-1): &ldquo;interaction effects&rdquo;/&rdquo;effect coding&rdquo;
-        1 of N
-    Encoding things to predict
-        1 of N (one hot) if more than two classes
-        binary: use 0/1</p>
-<p>handling 10,000 classes?
-    one hot with sparse encoding</p>
-<p>soft-max: coerces output of NN to sum to 1, allowing for a probability interpretation
-    useful when trying to predict 1 of something</p>
-<p>number of input nodes matches number of predictors
-number of hidden nodes is hyperparameter
-number of output nodes matches number of things you&rsquo;re trying to predict</p>
+<p>standardizing: dividing by constant (naive scaling), z-scoring, min-max (x - min(x) / max(x) - min(x))</p>
+<p>which one should you use when? depends on problem context, but JM has had most success with order magnitude scaling (x / K)</p>
+<ul>
+<li>z-score: investigate values with abs(x) &gt; 6</li>
+<li>naive scaling (order magnitude): he likes this one the most</li>
+</ul>
+<p>binary predictor: map to -1/1 not 0/1 (differs from standard statistical approach)</p>
+<ul>
+<li>Lots of ways to do predictor encoding<ul>
+<li>1 of (N-1): &ldquo;interaction effects&rdquo;/&rdquo;effect coding&rdquo;</li>
+<li>1 of N</li>
+</ul>
+</li>
+<li>Encoding things to predict<ul>
+<li>1 of N (one hot) if more than two classes</li>
+<li>binary: use 0/1</li>
+</ul>
+</li>
+</ul>
+<p>handling 10,000 classes? one hot with sparse encoding</p>
+<p>soft-max: coerces output of NN to sum to 1, allowing for a probability interpretation. This is useful in multi-class problems</p>
+<p>thumbrules:</p>
+<ul>
+<li>number of input nodes matches number of predictors</li>
+<li>number of hidden nodes is hyperparameter</li>
+<li>number of hidden layers is hyperparameter</li>
+<li>number of output nodes matches number of things you&rsquo;re trying to predict</li>
+</ul>
 <p>lines connecting nodes are &ldquo;weights&rdquo; (importance of value from node?)
 biases applied to nodes (like intercept in regression)</p>
 <p>training helps us to learn the weights</p>
-<p>algorithms (only really need to know two)
-    single hidden layer
-        stochastic gradient descent and backpropagation (primitive)
-    multiple hidden layers
-        AdaM: adaptive momentum becoming standard for larger problems</p>
-<p>activation function for hidden nodes:
-    single hidden layer: tanh (hyperbolic tangent)
-    multiple hidden layers: ReLU</p>
-<p>activation function for output node
-    multi-class: softmax
-    binary: sigmoid</p>
-<p>Universal approximation theorem: single hidden layer can do (approximately) the same task as a deep neural net</p>
-<p>90% + of your time is spent prepraring your data (even the ML guy from Microsoft agrees!)
-    cleaning, normalizing, and encoding the data</p>
-<p>training
-    full training: analyze data, update weights
-    online training: read single data item, update all weights
-    batch training: read subset of data, process, update weights
-        batch size: hyperparameter (8 or 16)
-        epochs: hyperparamter</p>
-<p>techniques you should know about
-    momentum: technique to speed up training
-    dropout: technique to prevent overfitting
-        functions are characterized by their weights
-            large weights, not so good
-            want to keep weights small
-        works well for deep neural networks, not simple
-        Dropout consists in randomly setting a fraction rate of input units to 0 at each update during training time, which helps prevent overfitting.
-            fraction is a hyperparameter</p>
-<p>LSTM with word embeddings - what does the data look like?
-    he&rsquo;s got an example on his blog</p>
+<p>algorithms (only really need to know two)</p>
+<ul>
+<li>single hidden layer (simple neural network)<ul>
+<li>stochastic gradient descent and backpropagation (primitive)</li>
+</ul>
+</li>
+<li>multiple hidden layers (deep neural network)<ul>
+<li>AdaM: adaptive momentum becoming standard for larger problems</li>
+</ul>
+</li>
+</ul>
+<p>activation function for hidden nodes:</p>
+<ul>
+<li>single hidden layer: tanh (hyperbolic tangent)</li>
+<li>multiple hidden layers: ReLU</li>
+</ul>
+<p>activation function for output node</p>
+<ul>
+<li>multi-class: softmax</li>
+<li>binary: logistic sigmoid</li>
+<li>regression: None</li>
+</ul>
+<p><a href="https://keras.io/losses/">loss functions</a></p>
+<ul>
+<li>multi-class: categorical_crossentropy</li>
+<li>binary: binary_crossentropy</li>
+<li>regression: mean_squared_error (or pick another flavor)</li>
+</ul>
+<p><a href="https://en.wikipedia.org/wiki/Universal_approximation_theorem">Universal approximation theorem</a>: single hidden layer can do (approximately) the same task as a deep neural net</p>
+<p>90% + of your time is spent prepraring your data (even the ML guy from Microsoft agrees!)</p>
+<ul>
+<li>cleaning, normalizing, and encoding the data</li>
+</ul>
+<p><a href="https://www.kaggle.com/residentmario/full-batch-mini-batch-and-online-learning">training types (how it gets done)</a></p>
+<ul>
+<li>full training: analyze data, update weights</li>
+<li>online training: read single data item, update all weights</li>
+<li>batch training: read subset of data, process, update weights<ul>
+<li>batch size: hyperparameter (8 or 16)</li>
+<li>epochs: hyperparamter</li>
+</ul>
+</li>
+</ul>
+<p>techniques you should know about (<strong>try to find some tutorials/blogs</strong>)</p>
+<ul>
+<li>momentum: technique to speed up training</li>
+<li>dropout: technique to prevent overfitting<ul>
+<li>functions are characterized by their weights<ul>
+<li>large weights, not so good - want to keep weights small</li>
+</ul>
+</li>
+<li>works well for deep neural networks, not simple</li>
+<li>Dropout consists in randomly setting a fraction rate of input units to 0 at each update during training time, which helps prevent overfitting.<ul>
+<li>fraction is a hyperparameter</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>LSTM with word embeddings - what does the data look like? he&rsquo;s got an example on his blog</p>
 <p>Naive Bayes is particularly good when combined with NN in ensemble model</p>
 <p>Naive Bayes - very good for small data sets </p>
 <p>If you have missing data for a neural network, toss it out</p>
@@ -1129,7 +1177,7 @@ biases applied to nodes (like intercept in regression)</p>
 <li>class imbalance</li>
 <li>what to do next<ul>
 <li>substantial amount of time spent data prepping</li>
-<li>have the environment, so you&rsquo;re ready to go</li>
+<li>have the environment, experience with Keras, and lots of sample templates, so you&rsquo;re ready to go</li>
 </ul>
 </li>
 <li>Unsupervised technique<ul>
@@ -1139,4 +1187,21 @@ biases applied to nodes (like intercept in regression)</p>
 </li>
 </ul>
 </li>
-</ol></article></body></html>
+</ol>
+<h2 id="main-takeaways">Main Takeaways<a class="headerlink" href="#main-takeaways" title="Permanent link"></a></h2>
+<ul>
+<li>Set up a &ldquo;professional&rdquo; python environment</li>
+<li>Walked through multiple examples of real problems being solved using neural networks in python with keras</li>
+<li>Understood different activation functions, loss functions, and optimization algorithms</li>
+<li>Learned about many different approaches to machine learning problems and some basic principles</li>
+<li>Learned about one typical folder structure of a machine learning project</li>
+<li>Spent time focusing on data manipulation and encoding techniques for neural nets</li>
+<li>Model evaluations with neural networks are mostly about accuracy<ul>
+<li>Important to pick a &ldquo;good&rdquo; accuracy measure for regression<ul>
+<li>His example: what % of predictions were within 15% of the true value?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Plenty of opportunities for comparing and contrasting Machine Learning and Statistical Modeling techniques/principles/ideas</li>
+</ul></article></body></html>
