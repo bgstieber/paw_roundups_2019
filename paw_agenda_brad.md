@@ -40,8 +40,8 @@ __Helpful Links__
      + __Possible alternative__: [The Dark Side of AI - Hoeg](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session64131)
          * Room: Octavius 15 & 16
  - 3:55 - 4:40
-     + Sessions: [Rethink Analytics Strategy - Quinto-Banton](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63121), [Predictive Analytics at Caesars - Frank](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63122)
-     + Room: Octavius Ballroom
+      + Sessions: [The Top 7 Ways AI is Transforming the Subscription Box Industry [A Fortune 200 Case Study]](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63141) - Bennett 
+     + Room: Octavius 21 & 22
  - 4:45 - 5:30
      + Sessions: [Attribution - Haensel](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63181), [Roadmap to Machine Learning - Ramirez](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63182)
      + Room: Octavius 21 & 22
