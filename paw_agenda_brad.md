@@ -58,7 +58,7 @@ __Helpful Links__
  - 10:50 - 11:20: Coffee Break :coffee:
  - 11:20 - 12:05
      + Sessions: [Effective Data Preparation - Nisbet](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63321)
-     + Room: 
+     + Room: Octavius 17-19
  - 12:05 - 1:10: Lunch :fork_and_knife:
  - 1:10 - 2:00
      + Sessions: [Against All Odds - Elder](https://www.predictiveanalyticsworld.com/lasvegas/agenda-details/#session63761)
