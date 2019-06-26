@@ -14,3 +14,19 @@
         * Do not build solutions in search of problems
 - The percent of time data scientists spend on data prep is still strictly greater than 50% (I heard 60, 90, and __even 99%!__)
     + Some of this can be solved with automation
+
+## Sessions to Highlight
+
+- Deep Learning Workshop
+    + Slides and other materials available
+
+> this is a block quote
+
+- CLTV
+    + Slides are not available, but I took a lot of notes
+- Bringing Model Outputs to Your Sales Force
+    + Slides are available
+- Disney Story
+    + Slides are not available
+- Effective Data Preparation
+    + Slides are available
