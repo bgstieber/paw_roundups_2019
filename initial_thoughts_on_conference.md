@@ -23,6 +23,7 @@
     + Slides are not available, but I took a lot of notes
 - Bringing Model Outputs to Your Sales Force
     + Slides are available
+    + Overlap between their business and ours. Had a "Top 10" list of prospects that are highlighted due to model scores.
 - Disney Story
     + Slides are not available
 - Effective Data Preparation
