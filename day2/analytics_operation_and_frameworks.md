@@ -12,6 +12,10 @@ Frameworks
     + Extract: does it replace something? double-check/QC on existing system? handle difficult cases?
         * What actions are associated with a model and what value do they provide?
 - Analytic Diamond
+    + Analytic strategy
+    + Analytic algorithms and models
+    + Analytic infrastructure
+    + Analytic operations
 - SAM (Score - Action - Measures)
     + Full picture of model infrastructure
         * Models produce scores
