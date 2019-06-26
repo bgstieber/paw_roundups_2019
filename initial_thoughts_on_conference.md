@@ -19,9 +19,6 @@
 
 - Deep Learning Workshop
     + Slides and other materials available
-
-> this is a block quote
-
 - CLTV
     + Slides are not available, but I took a lot of notes
 - Bringing Model Outputs to Your Sales Force
